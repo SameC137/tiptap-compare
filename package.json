@@ -1,0 +1,37 @@
+{
+  "name": "@samemichaeltadele/tiptap-compare",
+  "version": "0.0.1",
+  "description": "Tip Tap change compare plugin ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SameC137/tiptap-compare.git"
+  },
+  "author": "SameC137 <samemichael1415@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rm -r -Force dist",
+    "build": "rollup -c",
+    "dev": " rollup -c -w"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@tiptap/core": "^2.0.0-beta.220",
+    "@tiptap/pm": "^2.0.0-beta.220",
+    "rollup": "^3.17.3",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "@tiptap/core": "^2.0.0-beta.220",
+    "@tiptap/pm": "^2.0.0-beta.220"
+  },
+  "dependencies": {
+    "diff": "^7.0.0"
+  }
+}
