@@ -1,10 +1,12 @@
 {
   "name": "@samemichaeltadele/tiptap-compare",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Tip Tap change compare plugin ",
+  "keywords": ["tiptap", "compare", "diff", "highlight", "highlighting", "diffing", "diff-highlighting", "diff-highlighting-tiptap", "tiptap-compare", "tiptap-diff", "tiptap-highlight", "tiptap-highlighting", "tiptap-diff-highlighting", "tiptap-diff-highlighting-tiptap", "Tip Tap Compare"],
+
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SameC137/tiptap-compare.git"
+    "url": "https://github.com/SameC137/tiptap-compare.git"
   },
   "author": "SameC137 <samemichael1415@gmail.com>",
   "license": "MIT",
@@ -21,7 +23,7 @@
     "@rollup/plugin-commonjs": "^24.0.1",
     "@tiptap/core": "^2.0.0-beta.220",
     "@tiptap/pm": "^2.0.0-beta.220",
-    "rollup": "^3.17.3",
+    "rollup": "^3.30.0",
     "rollup-plugin-auto-external": "^2.0.0",
     "rollup-plugin-sourcemaps": "^0.6.3",
     "rollup-plugin-typescript2": "^0.34.1",
@@ -32,6 +34,6 @@
     "@tiptap/pm": "^2.0.0-beta.220"
   },
   "dependencies": {
-    "diff": "^7.0.0"
+    "diff": "^8.0.3"
   }
 }
