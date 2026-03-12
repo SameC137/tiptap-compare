@@ -2,9 +2,11 @@
   "name": "@samemichaeltadele/tiptap-compare",
   "version": "0.0.3",
   "description": "Tip Tap change compare plugin ",
+  "keywords": ["tiptap", "compare", "diff", "highlight", "highlighting", "diffing", "diff-highlighting", "diff-highlighting-tiptap", "tiptap-compare", "tiptap-diff", "tiptap-highlight", "tiptap-highlighting", "tiptap-diff-highlighting", "tiptap-diff-highlighting-tiptap", "Tip Tap Compare"],
+
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SameC137/tiptap-compare.git"
+    "url": "https://github.com/SameC137/tiptap-compare.git"
   },
   "author": "SameC137 <samemichael1415@gmail.com>",
   "license": "MIT",

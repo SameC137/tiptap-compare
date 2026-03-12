@@ -37,6 +37,7 @@ const editor = new Editor({
 // Update comparison content
 editor.commands.setComparisonContent(newContent)
 ```
+New content should be in json format like you would get by using the getJSON() comand on an editor
 
 ## Configuration
 
